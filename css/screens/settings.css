@@ -1,0 +1,32 @@
+.settings-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0px;
+  border-bottom: var(--border-line);
+}
+.settings-list__main {
+  display: flex;
+  align-items: center;
+}
+.settings-list__main h2 {
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.settings-lists:first-child .settings-list:last-child {
+  padding-bottom: 40px;
+  margin-bottom: 15px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.settings-lists:last-child .settings-list:last-child {
+  border-bottom: none;
+}
+
+.settings-list__right-text {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.settings-list__main .badge {
+  margin-left: 5px;
+}

@@ -1,0 +1,6 @@
+.main-screen {
+  margin-top: 120px;
+}
+.main-screen__padding {
+  padding: 10px var(--horizontal-space);
+}

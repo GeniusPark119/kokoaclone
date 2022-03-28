@@ -1,0 +1,7 @@
+.user-component__column:last-child {
+  display: block;
+}
+
+.user-component__notification {
+  margin-top: 10px;
+}

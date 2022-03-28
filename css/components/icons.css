@@ -1,0 +1,23 @@
+.icons {
+  display: flex;
+  flex-wrap: wrap;
+  color: var(--black);
+}
+
+.icons__icon {
+  display: flex;
+  width: 25%;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px 0px;
+}
+.icons__icon i {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.icons__icon span {
+  font-size: 17px;
+  font-weight: 500;
+  line-height: 20px;
+}

@@ -1,0 +1,57 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 25px 50px;
+  background-color: var(--lime);
+  border-top: 0.5px solid #d4cf7f;
+}
+.nav {
+  font-size: 19px;
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav__link {
+  color: var(--black);
+}
+
+.nav__btn:nth-child(2) {
+  position: relative;
+}
+
+.nav__btn:last-child {
+  position: relative;
+}
+
+.nav__notification {
+  position: absolute;
+  top: -7px;
+  right: -13px;
+}
+
+.nav__dot-notification {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background-color: tomato;
+  position: absolute;
+  right: -8px;
+  top: -8px;
+}
+
+.nav__link .badge {
+  animation: spinZ 1.5s ease-in-out infinite;
+}
+
+@keyframes spinZ {
+  0% {
+  }
+  50% {
+    transform: translateY(-10px) rotateY(360deg);
+  }
+  100% {
+  }
+}

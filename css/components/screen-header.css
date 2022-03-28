@@ -1,0 +1,31 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px;
+  color: var(--black);
+  position: fixed;
+  width: 100%;
+  top: 35px;
+  background-color: var(--lime);
+  border-bottom: 0.5px solid #d4cf7f;
+}
+
+.screen-header__text {
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.screen-header__icon a {
+  margin-left: 20px;
+  font-size: 20px;
+}
+.dot_gears {
+  position: relative;
+}
+
+.dot_gears .nav__dot-notification {
+  position: absolute;
+  top: -5px;
+  right: -3px;
+}
