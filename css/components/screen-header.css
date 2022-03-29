@@ -9,6 +9,7 @@
   top: 35px;
   background-color: var(--lime);
   border-bottom: 0.5px solid #d4cf7f;
+  z-index: 2;
 }
 
 .screen-header__text {
